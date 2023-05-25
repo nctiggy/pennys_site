@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: pennys-site
+  name: pennys-site
+  namespace: shared-services
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pennys-site
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: pennys-site
+    spec:
+      containers:
+      - image: nctiggy/penny:latest
+        name: penny
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

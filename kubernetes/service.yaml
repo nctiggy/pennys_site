@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: pennys-site
+  name: pennys-site
+  namespace: shared-services
+spec:
+  ports:
+  - name: 80-80
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: pennys-site
+  type: ClusterIP
+status:
+  loadBalancer: {}
