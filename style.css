@@ -1,0 +1,55 @@
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+
+h1{text-align: center}
+
+
+body {
+  background: antiquewhite
+
+    ;
+}
+
+p{color:  tan
+}
+
+h1{color: tan}
+
+
+h3{color: #6a8ea4
+}
+
+
+ol{color:#b6b1b5
+}
+
+ul{color: #b6b1b5
+}
+
+hr{color: #6a8ea4
+}
+
+h4{color: #6a8ea4
+}\
+
+h5{color:burlywood }
+
+p{font-family: sans-serif}
+
+h1{font-family: monospace}
+
+h3{font-family: monospace}
+
+h4{ font-family: monospace}
+
+h5{font-family: monospace}
+
+ol{font-family: cursive}
+
+ul{font-family: cursive}
+
+h1{font-family: inherit}
